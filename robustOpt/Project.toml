@@ -1,0 +1,9 @@
+name = "robustOpt"
+uuid = "ebb0f10a-321a-417a-8ce1-743d8c1f92f9"
+authors = ["laitacende <aleksandra.golebiowska600@gmail.com>"]
+version = "0.1.0"
+
+[deps]
+Cbc = "9961bab8-2fa3-5c5a-9d89-47fab24efd76"
+JuMP = "4076af6c-e467-56ae-b986-b466b2749572"
+SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
