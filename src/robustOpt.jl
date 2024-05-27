@@ -1,6 +1,6 @@
 module robustOpt
     export onestageMin, onestageMax, recoverableMin, lightRobustnessMin, lightRobustnessMax, recoverableMinInf,
-    lightRobustnessMinOpt, lightRobustnessMaxOpt, adjustableMinB
+    lightRobustnessMinOpt, lightRobustnessMaxOpt, adjustableMinB, nominal
     using JuMP, Cbc, SparseArrays
 
     include("./onestage.jl")
