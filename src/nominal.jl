@@ -35,11 +35,11 @@ function nominal(c::Union{Vector, SparseVector}, b::Union{Vector, SparseVector},
     if (printModel)
         println(model)
     end
+    optimize!(model)
+    zOpt = objective_value(model)
     if printSolution
         printNominal(model, n, x)
     end
-    optimize!(model)
-    zOpt = objective_value(model)
 
     d = Dict(
         k => value.(v) for
